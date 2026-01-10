@@ -1,0 +1,8 @@
+package com.lambdatrix.ecom.common.error;
+
+public enum ErrorCode {
+
+	COMMON_001_VALIDATION, COMMON_002_UNAUTHORIZED, COMMON_003_FORBIDDEN, COMMON_004_NOT_FOUND, COMMON_005_CONFLICT,
+	COMMON_006_INTERNAL
+
+}
