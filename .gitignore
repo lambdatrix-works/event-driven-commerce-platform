@@ -1,0 +1,45 @@
+# ===== Maven =====
+target/
+**/target/
+
+# --- Maven Wrapper should exist ONLY at repo root ---
+**/mvnw
+**/mvnw.cmd
+**/.mvn/
+
+# ===== Eclipse / STS =====
+.classpath
+.project
+.settings/
+.factorypath
+.springBeans
+.sts4-cache/
+
+# ===== IntelliJ (in case) =====
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ===== VS Code (in case) =====
+.vscode/
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
+
+# ===== Misc =====
+*.tmp
+*.swp
+
+# No per-module git config files (keep only at repo root)
+**/.gitignore
+**/.gitattributes
+
+# Allow root ones
+!.gitignore
+!.gitattributes
