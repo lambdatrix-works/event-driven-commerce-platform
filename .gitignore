@@ -1,0 +1,32 @@
+# ===== Maven =====
+target/
+**/target/
+
+# ===== Eclipse / STS =====
+.classpath
+.project
+.settings/
+.factorypath
+.springBeans
+.sts4-cache/
+
+# ===== IntelliJ (in case) =====
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ===== VS Code (in case) =====
+.vscode/
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
+
+# ===== Misc =====
+*.tmp
+*.swp
