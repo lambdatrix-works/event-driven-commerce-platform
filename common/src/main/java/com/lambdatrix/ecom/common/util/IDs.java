@@ -8,7 +8,15 @@ public interface IDs {
     return UUID.randomUUID().toString();
   }
 
+  public static String correlationId() {
+    return "corr:" + uuid().replace("-", "");
+  }
+
   public static String requestId() {
     return "req:" + uuid().replace("-", "");
+  }
+
+  public static String errorId() {
+    return "err:" + uuid().replace("-", "");
   }
 }

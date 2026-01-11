@@ -6,7 +6,7 @@
     <artifactId>event-driven-commerce-platform</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>com.lambdatrix.ecom.catalog</groupId>
+
   <artifactId>catalog-service</artifactId>
 
   <dependencies>
@@ -21,6 +21,12 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.lambdatrix.ecom</groupId>
+      <artifactId>common</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
 
