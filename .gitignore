@@ -2,6 +2,11 @@
 target/
 **/target/
 
+# --- Maven Wrapper should exist ONLY at repo root ---
+**/mvnw
+**/mvnw.cmd
+**/.mvn/
+
 # ===== Eclipse / STS =====
 .classpath
 .project
@@ -30,3 +35,11 @@ Thumbs.db
 # ===== Misc =====
 *.tmp
 *.swp
+
+# No per-module git config files (keep only at repo root)
+**/.gitignore
+**/.gitattributes
+
+# Allow root ones
+!.gitignore
+!.gitattributes
